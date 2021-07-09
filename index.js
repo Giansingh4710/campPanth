@@ -21,3 +21,12 @@ $closeBtnsArr.forEach(function ($btn) {
     document.querySelector(".el.s--active").classList.remove("s--active");
   });
 });
+
+const ball = document.getElementById("ball");
+ball.addEventListener("click", function (event) {
+  alert("You have pressed the ball");
+});
+const bird = document.getElementById("bird");
+bird.addEventListener("click", function (event) {
+  alert("You have pressed the bird");
+});
