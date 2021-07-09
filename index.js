@@ -22,11 +22,12 @@ $closeBtnsArr.forEach(function ($btn) {
   });
 });
 
-const ball = document.getElementById("ball");
-ball.addEventListener("click", function (event) {
-  alert("You have pressed the ball");
-});
-const bird = document.getElementById("bird");
-bird.addEventListener("click", function (event) {
-  alert("You have pressed the bird");
-});
+// const ball = document.getElementById("ball");
+// ball.addEventListener("click", function (event) {
+//   alert("You have pressed the ball");
+// });
+
+// const bird = document.getElementById("bird");
+// bird.addEventListener("click", function (event) {
+//   alert("You have pressed the bird");
+// });
