@@ -96,7 +96,7 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("./pic.jpg");
+  background-image: url("./pic1.jpg");
   z-index: 2;
 }
 
@@ -106,7 +106,7 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("./pic1.jpg");
+  background-image: url("./pic.jpg");
   transform: translateZ(-1px) scale(2);
 }
 
